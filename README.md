@@ -1,7 +1,7 @@
 # TreinandoCNN
 # 📄 Documentação do Projeto de Classificação de Dígitos Manuscritos com CNN
 
-Este projeto utiliza redes neurais convolucionais (CNNs) com TensorFlow/Keras para classificar imagens de dígitos manuscritos. A base de dados utilizada está no arquivo `digitosmanuscritos.csv`.
+Este projeto utiliza redes neurais convolucionais (CNNs) com TensorFlow/Keras para classificar imagens de dígitos manuscritos. A base de dados utilizada está no arquivo [`digitosmanuscritos.csv`](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv?resource=download) que em seu nome original seria `mnist_train.csv`.
 
 ---
 
