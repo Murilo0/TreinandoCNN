@@ -84,7 +84,7 @@ def treinar_e_testar(X, y, proporcao_treino):
     plt.ylabel('Accuracy')
     plt.legend()
 
-    filename_plot = f"training_plot_{int(proporcao_treino * 100)}_{int((1 - proporcao_treino) * 100)}.png"
+    filename_plot = f"training_plot_{round(proporcao_treino * 100)}_{round((1 - proporcao_treino) * 100)}.png"
     plt.savefig(filename_plot)
     plt.close()
     print(f"Gráficos de treino salvos em: {filename_plot}")
